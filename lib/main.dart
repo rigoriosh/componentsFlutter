@@ -1,4 +1,5 @@
 import 'package:componentes/src/pages/alert_page.dart';
+import 'package:componentes/src/pages/home_temp.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:componentes/src/routes/routes.dart';
 // import 'package:componentes/src/pages/home_temp.dart';
@@ -17,10 +18,7 @@ class Wcomponentes extends StatelessWidget {
         GlobalWidgetsLocalizations.delegate,
         GlobalCupertinoLocalizations.delegate,
       ],
-      supportedLocales: [
-        const Locale('en','US'),
-        const Locale('es','ES')
-      ],
+      supportedLocales: [const Locale('en', 'US'), const Locale('es', 'ES')],
       //home: WHomePageTemp(),
       //home: HomePage(),
       initialRoute: '/',
